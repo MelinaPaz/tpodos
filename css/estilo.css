@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(180, 168, 152);
+    background-image: url(../img/pexels-chinar-minar-1265133847-25906568.jpg);
+    background-size: cover;
 }
 
 header{
@@ -32,6 +33,7 @@ h1{
     background-color: rgb(179, 136, 219);
     border: rgb(112, 87, 124) solid;
     border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 .texto h2{
@@ -49,4 +51,23 @@ h1{
     font-size: 25px;
     color: rgb(98, 57, 117);
     text-shadow: 2px 2px 5px rgb(90, 89, 89) ;
+}
+
+footer{
+    background-color: rgb(179, 136, 219);
+    border: rgb(112, 87, 124) solid;
+    border-radius: 50px;
+}
+
+.redes{
+    text-align: center;
+    color: rgb(98, 57, 117);
+    font-family: "Sancreek", serif;
+}
+
+.saludo{
+    font-family: "Inconsolata", monospace;
+    color: azure;
+    text-align: end;
+    padding-left: 20px;
 }
