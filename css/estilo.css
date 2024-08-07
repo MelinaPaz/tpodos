@@ -1,7 +1,52 @@
+body{
+    background-color: rgb(180, 168, 152);
+}
+
 header{
-    background-color: blueviolet;
+    background-color: rgb(179, 136, 219);
+    border: solid rgb(112, 87, 124);
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 h1{
-    color: darkorchid;
+    color: rgb(112, 87, 124);
+    font-family: "Platypi", serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black ;
+
+}
+
+.imagen img{
+    background-color: rgb(112, 87, 124);
+    padding-top: 20px;
+    border: rgb(179, 136, 219) solid;
+    border-radius: 50px;
+    width: 250px;
+    margin: 0px 500px;
+    
+}
+
+.texto{
+    background-color: rgb(179, 136, 219);
+    border: rgb(112, 87, 124) solid;
+    border-radius: 50px;
+}
+
+.texto h2{
+    font-family: "Grey Qo", cursive;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(98,57,117);
+    text-shadow: 2px 2px 5px rgb(109, 102, 102) ;
+}
+
+.texto h3{
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    padding: 0px 5px;
+    font-size: 25px;
+    color: rgb(98, 57, 117);
+    text-shadow: 2px 2px 5px rgb(90, 89, 89) ;
 }
